@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/jmmiguel/Downloads/CODIGO_FINAL_12_05_2017-20170516T212207Z-001/CODIGO_FINAL_12_05_2017/CODIGO_FINAL/Codigo_PYTHON/Movement'
+let g:netrw_dirhist_2='/home/jmmiguel/Downloads/CODIGO_FINAL_12_05_2017-20170516T212207Z-001/CODIGO_FINAL_12_05_2017/CODIGO_FINAL/Codigo_PYTHON/PowerControl'
+let g:netrw_dirhist_3='/home/jmmiguel/Downloads/CODIGO_FINAL_12_05_2017-20170516T212207Z-001/CODIGO_FINAL_12_05_2017/CODIGO_FINAL/Codigo_PYTHON/Movement'
+let g:netrw_dirhist_4='/home/jmmiguel/Downloads/CODIGO_FINAL_12_05_2017-20170516T212207Z-001/CODIGO_FINAL_12_05_2017MUV/CODIGO_FINAL/Codigo_PYTHON/Socket'
+let g:netrw_dirhist_5='/home/jmmiguel/Downloads/CODIGO_FINAL_12_05_2017-20170516T212207Z-001/CODIGO_FINAL_12_05_2017MUV/CODIGO_FINAL/Codigo_PYTHON/Movement'
