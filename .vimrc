@@ -40,6 +40,7 @@ set autoread
 set mouse=a
 set magic
 set number
+set relativenumber
 set wildmenu
 set title
 set pastetoggle=<F2>
@@ -52,6 +53,12 @@ set autoread
 let &titleold=getcwd()
 set scrolloff=3
 set gdefault
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+:  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+:augroup END
 
 command! W w
 command! Wq wq
@@ -115,4 +122,4 @@ let g:UltiSnipsJumpForwardTrigger="<S-tab>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Python
-au BufNewFile,BufRead *.py :setlocal tabstop=4 softtabstop=4 shiftwidth=4 textwidth=79 expandtab fileformat=unix
+au BufNewFile,BufRead *.py :setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab fileformat=unix
