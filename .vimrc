@@ -70,6 +70,19 @@ nnoremap <down> gj
 nnoremap k gk
 nnoremap <up> gk
 
+" Move between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Split opening position
+set splitbelow
+set splitright
+
+
+
+
 let g:vimtex_view_method = 'zathura'
 
 " Enable Folding
@@ -97,7 +110,7 @@ map <C-n> :bnext<CR>
 map <C-b> :bprev<CR>
 
 " YCM
-" let g:ycm_python_binary_path = 'usr/bin/python3'
+let g:ycm_python_binary_path = 'usr/bin/python3'
 
 " supertab
 let g:SuperTabDefaultCompletionTypeDiscovery = [
@@ -112,7 +125,6 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " Jedi
 autocmd FileType python setlocal completeopt-=preview
-
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 " UltiSnips
